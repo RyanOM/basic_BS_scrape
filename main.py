@@ -3,7 +3,7 @@ from BeautifulSoup import *
 
 def main():
     
-    url = raw_input('Enter URL - ')
+    url = raw_input('Enter URL:')
     
     html = urllib.urlopen(url).read()
     soup = BeautifulSoup(html)
